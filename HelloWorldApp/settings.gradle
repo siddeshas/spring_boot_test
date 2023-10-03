@@ -3,4 +3,4 @@ pluginManagement {
     gradlePluginPortal()
   }
 }
-rootProject.name = 'ifx-demo-application'
+rootProject.name = 'HelloWorldApp'
