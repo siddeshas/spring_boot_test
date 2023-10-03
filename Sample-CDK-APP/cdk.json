@@ -1,0 +1,23 @@
+{
+  "app": "mvnw -e -q compile exec:java",
+  "watch": {
+    "include": [
+      "**"
+    ],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "target",
+      "pom.xml",
+      "src/test"
+    ]
+  },
+  "context": {
+    "applicationName": "ifx-cdk-app",
+    "region": "ap-south-1",
+    "accountId": "937054887486",
+    "springProfile": "admin",
+    "environmentName": "test",
+    "dockerImageUrl": "docker.io/stratospheric/todo-app-v1:latest"
+  }
+}

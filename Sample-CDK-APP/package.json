@@ -1,0 +1,21 @@
+{
+    "name": "ifx-cdk",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "bootstrap": "cdk bootstrap --app \"mvnw -e -q compile exec:java -Dexec.mainClass=com.ifx.impl.BootstrapApp\"",
+      "network:deploy": "cdk deploy --app \"mvnw -e -q compile exec:java -Dexec.mainClass=com.ifx.impl.NetworkApp\" --require-approval never",
+      "network:destroy": "cdk destroy --app \"mvnw -e -q compile exec:java -Dexec.mainClass=com.ifx.impl.NetworkApp\" --force --require-approval never",
+      "repository:deploy": "cdk deploy --app \"mvnw -e -q compile exec:java -Dexec.mainClass=com.ifx.impl.DockerRepositoryApp\" --require-approval never",
+      "repository:destroy": "cdk destroy --app \"mvnw -e -q compile exec:java -Dexec.mainClass=com.ifx.impl.DockerRepositoryApp\" --force --require-approval never",
+      "service:deploy": "cdk deploy --app \"mvnw -e -q compile exec:java -Dexec.mainClass=com.ifx.impl.ServiceApp\" --require-approval never",
+      "service:destroy": "cdk destroy --app \"mvnw -e -q compile exec:java -Dexec.mainClass=com.ifx.impl.ServiceApp\" --force --require-approval never"
+    },
+    "devDependencies": {
+      "aws-cdk": "2.43.1"
+    },
+    "engines": {
+      "node": ">=16"
+    }
+  }
+  
