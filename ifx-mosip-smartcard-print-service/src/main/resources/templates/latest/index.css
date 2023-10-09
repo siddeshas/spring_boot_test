@@ -1,0 +1,63 @@
+.mosip-logo{
+    width: 22%;
+}
+.infi-logo{
+    width: 18%;
+}
+#navbarNav{
+    flex-basis: 100%;
+}
+#tableID{
+    border-top: 1px solid #111;
+}
+.dataTables_filter{
+    margin-bottom: 20px !important;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #e71c45, #156aaa);
+    color: white;
+    text-align: center;
+    padding: 15px;
+ }
+ .fa-icons i{
+    margin-left: 20px;
+ }
+
+.nav-item .nav-link{
+    color: #156aaa !important;
+    font-size: 25px;
+}
+.content-text{
+    text-align: start;
+    margin-top: 1rem;
+}
+#header {
+    padding: 0px 10px;
+    color: #156aaa;
+    font-weight: 600;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+    z-index: 2;
+    box-shadow: 10px 0px 38px -6px;
+  }
+  .content-home{
+    margin-top:100px;
+    padding:15px 15px 200px;
+    font-size:20px
+  }
+  .header-about{
+    margin-top: 20px;
+  }
+
+  .about-info{
+    background: linear-gradient(to bottom right, #e71c45, #156aaa);
+    color: white;
+    margin-top: 20px !important;
+    border-radius: 20px;
+  }
